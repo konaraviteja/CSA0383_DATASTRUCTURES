@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int i;
+int values[5];
+printf("enter  integers:");
+for(i=0;i<5;i++){
+scanf("%d",&values[i]);
+}
+printf("displaying inntegers:");
+for(i=0;i<5;i++){
+printf("%d",values[i]);
+}
+return 0;
+}
